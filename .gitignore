@@ -1,0 +1,55 @@
+# Arquivos e pastas a serem ignorados pelo Git
+
+# Diretório de checkpoints do Jupyter Notebook
+/.ipynb_checkpoints
+
+# Arquivos CSV
+*.csv
+.csv
+csv
+
+!buscape.csv
+# Arquivos de modelo de machine learning
+*.h5
+*.pb
+
+# Pasta de modelos treinados
+/models/
+
+# Ambientes virtuais Python
+venv
+.venv
+
+# Arquivo de variáveis de ambiente
+.env
+
+# Pasta de cache do Python
+acoes/_pycache_/
+
+# Adicionais:
+
+# Arquivos de log
+*.log
+
+# Arquivos de imagem
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Arquivos de vídeo
+*.mp4
+*.avi
+*.mov
+
+# Arquivos de áudio
+*.mp3
+*.wav
+
+# Arquivos de texto
+*.txt
+
+# Pasta de dependências do projeto
+/node_modules/
+
+.pyc
